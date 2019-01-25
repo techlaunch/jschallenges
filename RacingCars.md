@@ -1,6 +1,6 @@
 # Welcome to the races
 
-Imagine we have the following array of Car objects
+Imagine we have the following array of Car objects:
 
 ```
 var car = [{
@@ -34,9 +34,9 @@ First, let's understand the concept of seed. A seed for this example will be a r
 
 In a race circuit, a formula to estimate the changes for a car to win is to multiple the torque of a car by the aproximate degree of each curve and by the seed, and then the speed of the car by the aproximate lenght of each straight road and by the seed. Cars with more torque will do better on curvy circuits, and cars with great speed will perform on straight circuits.
 
-![alt text](https://www.clipartmax.com/png/small/120-1200419_race-clipart-flag-png-race-track-clipart-transparent.png)
+![clasic circuit](https://www.clipartmax.com/png/small/120-1200419_race-clipart-flag-png-race-track-clipart-transparent.png)
 
-// So for a circuit like the one above with 4 courves of 45 degress, 2 roads of 300 meters and 2 small roads of 10 meters, the formula could be:
+For a circuit above, with 4 courves of aproximate 45 degress, 2 roads of 300 meters and 2 small roads of 10 meters, the formula could be:
 
 ```
 45 * torque * seed + 
@@ -49,13 +49,28 @@ In a race circuit, a formula to estimate the changes for a car to win is to mult
 10 * speed * seed
 ```
 
+# Challenge #1
 Implement the following funcion checkCarChanges() that receives a Car object, an array of courves and an array of roads and return the car changes.
 
 ```
-funcion checkCarChanges(car, courves, roads) {
+funcion checkCarChanges(car, curves, roads) {
 	// your code here
 	return chance;
 }
 ```
+For the above circuit, the arrays of curves and roads will be as follows:
+```
+var curves = [45,45,45,45];
+var rods = [300,10,300,10];
+```
 
-Create your own circuits by adding/substracting curves and roads, then run the funcion for each car on the initial array and display the model and score for each car on an ordered list.
+# Challenge #2
+Using the circuit shown above, run the funcion for each car on the initial array and display the model on an ordered list, starting by the ones with smaller changes. Add the button "Race!" to start and re-do the races.
+
+# Challenge #3
+
+Create the arrays of curves and roads from the circuit below. Use approximate values. Now run your funcion for each car on the initial array and display the model on an ordered list, starting by the ones with smaller changes. Add the button "Race!" to start and re-do the races. Make sure your interface looks simple but appealing to the user.
+
+![curvy circuit](https://autobahnspeed.com/wp-content/uploads/2016/12/Jessup-Le-Mans.png)
+
+
