@@ -34,7 +34,7 @@ First, let's understand the concept of seed. A seed for this example will be a r
 
 In a race circuit, a formula to estimate the changes for a car to win is to multiple the torque of a car by the aproximate degree of each curve and by the seed, and then the speed of the car by the aproximate lenght of each straight road and by the seed. Cars with more torque will do better on curvy circuits, and cars with great speed will perform on straight circuits.
 
-![clasic circuit](https://www.clipartmax.com/png/small/120-1200419_race-clipart-flag-png-race-track-clipart-transparent.png | width=100)
+![clasic circuit](https://www.clipartmax.com/png/small/120-1200419_race-clipart-flag-png-race-track-clipart-transparent.png){:width="100px"}
 
 For a circuit above, with 4 courves of aproximate 45 degress, 2 roads of 300 meters and 2 small roads of 10 meters, the formula could be:
 
