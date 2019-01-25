@@ -29,7 +29,7 @@ Display the name of all students which GPA is lower than 2 in a unordered list. 
 * Cachito
 
 # Challenge #2
-Create a table with the headers "Student", "GPA" and "Class". Display all the students from the list matching the object field to the three columns of the table. Your code has to result on the example below:
+Create a table with the headers "Student", "GPA" and "Class". Display all the students from the list matching the object field to the three columns of the table. Your code has to result on the example below, but don't worry about any details of design like row colors or spacing:
 
 Student  | GPA  | Class
 ------------- | ------------- | -------------
